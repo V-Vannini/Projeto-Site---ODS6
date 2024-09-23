@@ -1,0 +1,229 @@
+/* ESTILO GERAL */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: linear-gradient(
+        to bottom,
+        rgb(36, 102, 163),
+        rgb(76, 148, 216),
+        rgb(139, 197, 252),
+        rgb(193, 221, 248),
+        rgb(255, 255, 255),
+        rgb(255, 255, 255),
+        rgb(255, 255, 255),
+        rgb(255, 255, 255));
+
+    background-size:300% 300%;
+    height: 100vh;
+    /* animation: animacao 15s ease infinite; */
+    
+}
+/* @keyframes animacao {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+} */
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
+.contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    color:#fcfcfc;
+    background-color:rgb(0, 65, 139);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .1s;
+}
+.contato2 button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color:rgb(0, 65, 139);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .1s;
+}
+.contato button:hover {
+    box-shadow: 0px 0px 8px rgb(0, 65, 139);
+    transform: scale(1.05);
+}
+/*Formulário*/
+.formulario {
+    display: none; /* Oculta o formulário por padrão */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.formulario h1 {
+    margin: 20px 0;
+}
+
+.formulario form {
+    background:  rgb(36, 102, 163),;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario:target {
+    display: flex; /* Mostra o formulário ao ser chamado pelo link */
+}
+
+.fechar {
+    display: block;
+    margin-top: 10px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+ /*Fim do Formulário*/
+
+h2 {
+    color: rgb(35, 50, 91);
+    margin-top: 25px;
+    text-decoration:underline;
+}
+h3 {
+    color: rgb(35, 50, 91);
+    text-align: center;
+    font-size: 20px;
+}
+
+/* ESTILO DO CABEÇALHO */
+header {
+    padding: 40px 4%; 
+}
+header .interface .logo {
+    display: flex;
+    align-items: center;
+}
+header .interface .logo h1 {
+    color: #fff;
+    margin-left: 5px;
+    align-items: center;
+    display: flex;
+}
+header .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a {
+    color: #fcfcfc;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline-block;
+    transition: .1s;
+}
+header a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+header nav ul {
+    list-style-type: none;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* ESTILO TOPO DO SITE */
+section .topo {
+    padding: 40px 4%;
+}
+section .topo .flex {
+    align-items: center;
+    justify-content: center;
+}
+.topo .txtTopo {
+    color: #fff;
+    margin-right: 80px;
+}
+.topo .txtTopo h1 {
+    font-size: 50px;
+}
+.topo .txtTopo p {
+    margin: 25px 0;
+}
+
+/* MENUS */
+.menus .linha {
+    border-color: rgb(35, 50, 91);
+    padding: 40px;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+}
+.menus .flex {
+    padding: 40px 4%;
+    align-items: center;
+    justify-content: center;
+}
+.menus .box {
+    padding: 20px;
+}
+.menus .box img {
+    transition: 0.2s;
+}
+.menus .box img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgb(0, 65, 139);
+}
+
+/* MISSÕES E VALORES */
+.flex2 {
+    display: flex;
+    justify-content: center;
+}
+.menus .linha2 {
+    border-color: rgb(35, 50, 91);
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+}
+.missval ul li {
+    padding: 10px 0;
+    color: rgb(35, 50, 91);
+}
+.missval ul {
+    list-style-type: disc;
+    text-align: justify;
+}
+.missval .missao {
+    width: 50%;
+}
+.missval .valores {
+    width: 50%;
+}
+.missval .valores ul {
+    margin-left: 5%;
+}
+.missval .missao ul {
+    margin-right: 5%;
+}
