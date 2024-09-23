@@ -1,0 +1,25 @@
+.topico{
+    color: blue;
+}
+.font{
+    color: black;
+}
+.conteudo{
+    display: flex;
+    width: 750px ;
+    height: 50;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+
+}
+h3{
+    color: blue;
+}
+li{
+    text-decoration:none;
+}
+.card-group{
+padding: 100px;
+}
