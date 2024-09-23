@@ -49,15 +49,19 @@ body {
         rgb(255, 255, 255),
         rgb(255, 255, 255),
         rgb(255, 255, 255));
+        height: 100vh;
+        background-size:400% 400%;
 }
 
 .interface {
     max-width: 1280px;
     margin: 0 auto;
 }
+
 .flex {
     display: flex;
 }
+
 .contato button {
     padding: 10px 40px;
     font-size: 18px;
@@ -83,17 +87,6 @@ body {
 .contato button:hover {
     box-shadow: 0px 0px 8px rgb(0, 65, 139);
     transform: scale(1.05);
-}
-
-h2 {
-    color: rgb(35, 50, 91);
-    margin-top: 25px;
-    text-decoration:underline;
-}
-h3 {
-    color: rgb(35, 50, 91);
-    text-align: center;
-    font-size: 20px;
 }
 
 /* ESTILO DO CABEÇALHO */
@@ -134,115 +127,21 @@ header nav ul li {
     padding: 0 40px;
 }
 
-/* ESTILO TOPO DO SITE */
-section .topo {
-    padding: 40px 4%;
-}
-section .topo .flex {
+.topo {
     align-items: center;
     justify-content: center;
-}
-.topo .txtTopo {
-    color: rgb(35, 50, 91);
-    margin-right: 80px;
-}
-.topo .txtTopo h1 {
-    font-size: 30px;
-}
-.topo .txtTopo p {
-    margin: 25px 0;
-    text-align: justify;
-}
-
-/* FORMULÁRIO */
-.formulario {
-    display: none; /* Oculta o formulário por padrão */
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente */
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-}
-
-.formulario h1 {
-    margin: 20px 0;
-    color: #fff;
-}
-
-.formulario form {
-    background:  rgb(0, 0, 0),;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
-    color:#fff ;
-}
-
-.formulario:target {
-    display: flex; /* Mostra o formulário ao ser chamado pelo link */
-}
-.formulario textarea { /* Dimensionamento do campo mensagem do formulario */
     display: flex;
-    width: 300px;
-    height: 100px;
-    resize: none;
 }
 
-.formulario a {
-    display: block;
-    margin-top: 10px;
-    color: #4CAF50;
-    text-decoration: none;
-}
+.topo .interface h1 {
+    font-size: 70px;
 
-.formulario input {
-    display: flex;
-    width: 300px;
-    height: 30px;
-}
-
-.formulario button {
-    margin-top: 25px;
-}
-
-/* MENUS */
-.menus .linha {
-    border-color: rgb(35, 50, 91);
-    padding: 40px;
-    border-right: 0;
-    border-left: 0;
-    border-top: 0;
-}
-.menus .flex {
-    padding: 40px 4%;
-    align-items: center;
-    justify-content: center;
-}
-.menus .box {
-    padding: 20px;
-}
-.menus .box img {
-    transition: 0.2s;
-}
-.menus .box img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 8px rgb(0, 65, 139);
 }
 
 /* MISSÕES E VALORES */
 .flex2 {
     display: flex;
     justify-content: center;
-}
-.menus .linha2 {
-    border-color: rgb(35, 50, 91);
-    border-right: 0;
-    border-left: 0;
-    border-top: 0;
 }
 .missval ul li {
     padding: 10px 0;
@@ -264,6 +163,7 @@ section .topo .flex {
 .missval .missao ul {
     margin-right: 5%;
 }
+
 /* FOOTER */
 footer {
     height: 100px;
