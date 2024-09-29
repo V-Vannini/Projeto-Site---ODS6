@@ -1,0 +1,185 @@
+body {
+    background-image: linear-gradient(
+        to bottom,
+        cadetblue,
+        rgb(103, 182, 255),
+        rgb(255, 255, 255),
+        rgb(255, 255, 255),
+        rgb(255, 255, 255),
+        rgb(255, 255, 255),
+        rgb(255, 255, 255),
+        rgb(255, 255, 255));
+
+    background-size:300% 300%;
+    height: 100vh;
+    /* animation: animacao 15s ease infinite; */
+    
+}
+.conteiner{
+
+    padding-top: 500px;
+    padding: 50px;
+    background-image: url(istockphoto-1433122206-1024x1024.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    opacity: 0.8;
+    
+}
+.conteudo{
+    width: 400px;
+    height: 250px;
+    z-index: 2;
+}
+
+
+.contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    color:#fcfcfc;
+    background-color:darkcyan;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .1s;
+}
+.contato2 button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color:rgb(0, 65, 139);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .1s;
+}
+.contato button:hover {
+    box-shadow: 0px 0px 8px rgb(0, 75, 75);
+    transform: scale(1.05);
+}
+h2 {
+    color: rgb(35, 50, 91);
+    margin-top: 25px;
+    text-decoration:underline;
+}
+h3 {
+    color: rgb(35, 50, 91);
+    text-align: center;
+    font-size: 20px;
+}
+
+/* ESTILO DO CABEÇALHO */
+header {
+    padding: 40px 4%; 
+}
+header .interface .logo {
+    display: flex;
+    align-items: center;
+}
+header .interface .logo h1 {
+    color: #fff;
+    margin-left: 5px;
+    align-items: center;
+    display: flex;
+}
+header .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a {
+    color: #fcfcfc;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline-block;
+    transition: .1s;
+}
+header a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+header nav ul {
+    list-style-type: none;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* ESTILO TOPO DO SITE */
+section .topo {
+    padding: 40px 4%;
+}
+section .topo .flex {
+    align-items: center;
+    justify-content: center;
+}
+.topo .txtTopo {
+    color: #fff;
+    margin-right: 80px;
+}
+.topo .txtTopo h1 {
+    font-size: 50px;
+}
+.topo .txtTopo p {
+    margin: 25px 0;
+}
+
+/* MENUS */
+.menus .linha {
+    border-color: rgb(35, 50, 91);
+    padding: 40px;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+}
+.menus .flex {
+    padding: 40px 4%;
+    align-items: center;
+    justify-content: center;
+}
+.menus .box {
+    padding: 20px;
+}
+.menus .box img {
+    transition: 0.2s;
+}
+.menus .box img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgb(0, 65, 139);
+}
+
+/* MISSÕES E VALORES */
+.flex2 {
+    display: flex;
+    justify-content: center;
+}
+.menus .linha2 {
+    border-color: rgb(35, 50, 91);
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+}
+.missval ul li {
+    padding: 10px 0;
+    color: rgb(35, 50, 91);
+}
+.missval ul {
+    list-style-type: disc;
+    text-align: justify;
+}
+.missval .missao {
+    width: 50%;
+}
+.missval .valores {
+    width: 50%;
+}
+.missval .valores ul {
+    margin-left: 5%;
+}
+.missval .missao ul {
+    margin-right: 5%;
+}
+
