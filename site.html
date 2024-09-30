@@ -20,17 +20,13 @@
                     </a>
                     <h1>HidroSaneável</h1>
                 </div><!--/logo-->
-                <nav class="menu">
+                <nav class="contato">
                     <ul>
-                        <li><a href="">Início</a></li>
-                        <li><a href="">Sobre Nós</a></li>
+                        <li><button><a href="#">Início</a></button></li>
+                        <li><button><a href="about.html">Sobre Nós</a></button></li>
+                        <li><button><a href="hidroblog.html">Blog</a></button></li>
                     </ul>
                 </nav>
-                <div class="contato"><!--blog-->
-                    <a href="">
-                        <button>Blog</button>
-                    </a>
-                </div><!--/blog-->
             </div><!--/interface-->
         </header>
         <main>
@@ -38,12 +34,46 @@
                 <div class="interface">
                     <div class="flex">
                         <div class="txtTopo">
-                            <h1>TEXTO OD6 SITE</h1>
-                            <p>Subtitulo do texto de apresentação do site (Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, voluptate. Ratione, quidem nostrum deserunt numquam rem autem inventore iure aut dolorum nesciunt voluptate aperiam, temporibus obcaecati fugiat doloremque aliquam! Molestiae!)</p>
-                            <div class="contato2"><!--contato-->
-                                <a href="">
+                            <h1>IMPORTÂNCIA DA ÁGUA</h1>
+                            <p>A água é de suma importância tanto para os ecossistemas presentes no mundo inteiro, quanto para o próprio desenvolvimento do ser humano. Nós somos compostos basicamente de 60% de água e as mais diversas atividades que desempenhamos necessitam primordialmente da água para o seu funcionamento. Um exemplo claro é a agricultura. Segundo o Fundo de Nações Unidas para a Agricultura e Alimentos (FAO), a agricultura é o setor que mais consome água, chegando ao valor de quase 70% de toda a água usada.</p>
+                            <h1>ACESSO À AGUA</h1>
+                            <p>O acesso à água potável melhorou globalmente nas últimas décadas, mas ainda está longe de ser universal. De acordo com dados recentes, cerca de 2,2 bilhões de pessoas em todo o mundo ainda não têm acesso a serviços de água potável gerenciados de forma segura. Esse problema é muito grave em regiões rurais e em países em desenvolvimento, onde a infraestrutura para o fornecimento de água é muitas vezes inadequada ou inexistente. A falta de acesso à água limpa, resulta em graves consequências para a saúde pública, contribuindo para a propagação de doenças e afetando o bem-estar geral das populações mais vulneráveis. Apesar dos avanços, as disparidades regionais são nítidas. Enquanto países desenvolvidos geralmente têm quase 100% de cobertura de água potável, muitas áreas da África Subsaariana, do Sul da Ásia e de partes da América Latina e do Caribe ainda enfrentam grandes dificuldades para garantir o acesso seguro da água potável.</p>
+                            <h1>ESCASSEZ DE ÁGUA</h1>
+                            <p>A escassez de água é uma crise crescente que afeta todos os continentes. Estima-se que cerca de 1,7 bilhão de pessoas vivem em regiões onde a demanda por água supera os recursos disponíveis. Esta situação é intensificada pelas mudanças climáticas, que alteram os padrões de precipitação e provocam secas mais frequentes e fortes. O crescimento populacional, a urbanização descontrolada e a agricultura intensiva, que consome cerca de 70% da água doce disponível no mundo, fazem uma grande pressão sobre os recursos hídricos disponíveis. Além disso, a poluição destes recursos por resíduos industriais, agrícolas e domésticos agrava a escassez, tornando a água imprópria para o consumo humano. Regiões como o Oriente Médio e o Norte da África são particularmente vulneráveis à escassez hídrica, enfrentando uma crise aguda que ameaça a segurança alimentar, a saúde pública e a estabilidade econômica.</p>
+                            <h1>ESTUDO DA ÁGUA DOENTE</h1>
+                            <p>A água contaminada mata mais do que qualquer forma de violência! A contaminação de produtos nocivos muitas vezes aparecem de forma invisível a olho nu, pois transparência nas águas não é sinal de que a mesma é potável. Podem ser transmitidas doenças, que causam diarreia, disenteria, febre… entre outros.</p>
+                            <h1>COLETA DE ESGOTO</h1>
+                            <p>Um dos principais embates é garantir o acesso a saneamento e higiene adequados e equitativos para todos, e acabar com a defecação a céu aberto, no mundo todo é possível identificar as diversas comunidades que não possuam saneamento básico e que sofrem com a contaminação das águas próximas é de suma importância o suporte de toda a população juntamente com os órgãos públicos para garantir saneamento a todos, dando atenção especial para as necessidades das mulheres e meninas e daqueles em situação de vulnerabilidade.</p>
+
+                            <div class="contato"><!--contato-->
+                                <a href="#contato">
                                     <button>Entre em contato</button>
                                 </a>
+                                <div id="contato" class="formulario">
+                                    <h1>Entre em Contato</h1>
+                                    <form action="process_form.php" method="POST">
+                                        <div>
+                                            <div>
+                                            <label for="name">Nome:</label>
+                                            <input type="text" id="name" name="name" required>
+                                            </div>
+
+                                            <div>
+                                            <label for="email">Email:</label>
+                                            <input type="email" id="email" name="email" required>
+                                            </div>
+
+                                            <div>
+                                            <label for="message">Mensagem:</label>
+                                            <textarea id="message" name="message" rows="4" required></textarea>
+                                            </div>
+                                            <div>
+                                            <button type="submit">Enviar</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <a href="#" class="Fechar">Fechar</a>
+                                </div><!--/formulario-->
                             </div><!--/contato2-->
                         </div><!--/txtTopo-->
 
@@ -60,7 +90,7 @@
                     <hr class="linha">
                     <div class="flex">
                         <div class="box">
-                            <a href="">
+                            <a href="Dicas.html">
                                 <img src="ajudar.PNG" style="width: 270px; height: 200px; border-radius: 10px;">
                             </a>
                             <h3>COMO AJUDAR</h3>
@@ -74,52 +104,24 @@
                         </div><!--/box-->
                         
                         <div class="box">
-                            <a href="">
+                            <a href="https://brasil.un.org/pt-br/sdgs/6">
                                 <img src="ONU.jpg" style="width: 270px; height: 200px; border-radius: 10px;">
                             </a>
                             <h3>METAS ONU</h3>
                         </div><!--/box-->
 
                         <div class="box">
-                            <a href="">
+                            <a href="Acoes.html" target="_self">
                                 <img src="ongs.jpeg" style="width: 270px; height: 200px; border-radius: 10px;">
                             </a>
                             <h3>ONGS PARCEIRAS</h3>
                         </div><!--/box-->
                     </div><!--/flex-->
-                    <hr class="linha2">
                 </div><!--/interface-->
             </section>
-
-            <section class="missval">
-                <div class="interface">
-                    <div class="flex2">
-                        <div class="missao">
-                            <h2>MISSÕES</h2>
-                            <ul>
-                                <li>"Garantir o acesso sustentável a água limpa e saneamento para todos através de soluções inovadoras e responsáveis, promovendo a saúde e o bem-estar das comunidades."</li>
-                                <li>"Desenvolver tecnologias e serviços que protejam e melhorem a qualidade dos recursos hídricos, alinhando-se aos objetivos globais de desenvolvimento sustentável e contribuindo para um futuro ambientalmente equilibrado."</li>
-                                <li>"Educar e capacitar comunidades sobre práticas de gestão eficiente de água e saneamento, incentivando o uso responsável dos recursos e promovendo mudanças positivas em nível local e global."</li>
-                                <li>"Colaborar com parceiros e stakeholders para enfrentar desafios complexos relacionados à água e saneamento, promovendo soluções integradas e sustentáveis que beneficiem a sociedade e o meio ambiente."</li>
-                            </ul>
-                        </div><!--/missao-->
-
-                        <div class="valores">
-                            <h2>VALORES</h2>
-                            <ul>
-                                <li>Sustentabilidade: Compromisso com a proteção ambiental e a gestão responsável dos recursos hídricos.</li>
-                                <li>Inovação: Busca constante por soluções novas e eficazes para desafios relacionados à água e saneamento.</li>
-                                <li>Responsabilidade Social: Foco em melhorar a qualidade de vida e acesso a água e saneamento para todos.</li>
-                                <li>Transparência: Integridade e clareza em todas as práticas e comunicações.</li>
-                                <li>Colaboração: Parcerias para enfrentar desafios globais e alcançar soluções eficazes.</li>
-                                <li>Educação e Conscientização: Promoção de conhecimento sobre a importância da gestão dos recursos hídricos e saneamento.</li>
-                                <li>Eficiência: Oferecer soluções que maximizem o uso dos recursos e minimizem impactos ambientais.</li>
-                            </ul>
-                        </div><!--/valores-->
-                    </div>
-                </div><!--/interface--> 
-            </section>
         </main>
-        
     </body>
+    <footer>
+        <p>HIDROSANEÁVEL -2024- Todos os direitos reservados</p>
+    </footer>
 </html>
