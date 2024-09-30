@@ -1,0 +1,289 @@
+
+.carousel-item active{
+    border:1px solid black
+   }
+   
+   
+   body {
+       background-image: linear-gradient(
+           to bottom,
+           cadetblue,
+           rgb(103, 182, 255),
+           rgb(255, 255, 255),
+           rgb(255, 255, 255),
+           rgb(255, 255, 255),
+           rgb(255, 255, 255),
+           rgb(255, 255, 255),
+           rgb(255, 255, 255));
+   
+       background-size:300% 300%;
+       height: 100vh;
+       /* animation: animacao 15s ease infinite; */
+   }
+   /* ESTILO DO CABEÇALHO */
+   header {
+    padding: 40px 4%; 
+}
+h2 {
+    color: rgb(35, 50, 91);
+    margin-top: 25px;
+    text-decoration:underline;
+}
+h3 {
+    color: rgb(35, 50, 91);
+    text-align: center;
+    font-size: 20px;
+}
+
+header .interface .logo {
+    display: flex;
+    align-items: center;
+}
+header .interface .logo h1 {
+    color: #fff;
+    margin-left: 5px;
+    align-items: center;
+    display: flex;
+}
+header .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a {
+    color: #fcfcfc;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline-block;
+    transition: .1s;
+}
+header a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+header nav ul {
+    list-style-type: none;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* ESTILO TOPO DO SITE */
+section .topo {
+    padding: 40px 4%;
+}
+section .topo .flex {
+    align-items: center;
+    justify-content: center;
+}
+.topo .txtTopo {
+    color: #fff;
+    margin-right: 80px;
+}
+.topo .txtTopo h1 {
+    font-size: 50px;
+}
+.topo .txtTopo p {
+    margin: 25px 0;
+}
+
+/* MENUS */
+.menus .linha {
+    border-color: rgb(35, 50, 91);
+    padding: 40px;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+}
+.menus .flex {
+    padding: 40px 4%;
+    align-items: center;
+    justify-content: center;
+}
+.menus .box {
+    padding: 20px;
+}
+.menus .box img {
+    transition: 0.2s;
+}
+.menus .box img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgb(0, 65, 139);
+}
+
+/* MISSÕES E VALORES */
+.flex2 {
+    display: flex;
+    justify-content: center;
+}
+.menus .linha2 {
+    border-color: rgb(35, 50, 91);
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+}
+.missval ul li {
+    padding: 10px 0;
+    color: rgb(35, 50, 91);
+}
+.missval ul {
+    list-style-type: disc;
+    text-align: justify;
+}
+.missval .missao {
+    width: 50%;
+}
+.missval .valores {
+    width: 50%;
+}
+.missval .valores ul {
+    margin-left: 5%;
+}
+.missval .missao ul {
+    margin-right: 5%;
+}
+.contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    color:#fcfcfc;
+    background-color:darkcyan;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .1s;
+}
+.contato2 button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color:rgb(0, 65, 139);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .1s;
+}
+.contato button:hover {
+    box-shadow: 0px 0px 8px rgb(0, 75, 75);
+    transform: scale(1.05);
+}
+
+
+/*pagina curiosidades */
+.fonts{
+    font-size: 25px;
+    padding-bottom:20px ;
+    font-weight:900;
+    text-align: center;
+}
+.conteiner{
+    width: 700px;
+    height: 150px;
+    margin: auto;
+    
+}
+
+.font{
+    padding: 20px;
+    color: black;
+    font-size: 25px;
+}
+.conteudo{
+    display: flex;
+    width: 9000px ;
+    height: 50;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    background-color: antiquewhite;
+
+
+}
+h3{
+    color: blue;
+}
+.col{
+    text-decoration:none;
+}
+.card-group{
+    margin-top: 250px;
+padding top: 20px;
+
+}
+
+
+    
+    .v2{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        color:white;
+        font-size: 45px;
+        font-weight: bold;
+        padding: 10px;
+        background-color: rgb(22, 18, 11);
+    
+    }
+    .contvideos{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        background-color:blue;
+        justify-content: center;
+        padding: 50px;
+        padding-bottom: 50px;
+        width: 40vh;
+        height: 300px;
+        border: 1px solid black;
+    }
+    .videos{
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: 200px;
+        border: solid 1px black;
+    }
+    
+    .row {
+        justify-content: space-evenly;
+        display: flex;
+        gap: 60px;
+        padding: 20px;
+        padding-top: 350px;
+    
+    }
+    .card{
+       float: calc();
+        margin: auto;
+        width: 300px;
+        height: 20px;
+    }
+    .conteudo{
+        padding-top: 250px;
+        margin-left: 300px;
+        width: 400px;
+        height: 150px;
+    }
+    
+    
+    
+    
+   
+    
+     
+    .col h5{
+        padding-bottom: 10px;
+        text-align: justify;
+    
+    }
+    
+
+    .col  ul li a{
+        text-decoration: none;
+        padding: 20px;
+    }
+    
+    
+    
